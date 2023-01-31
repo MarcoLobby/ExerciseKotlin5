@@ -1,9 +1,6 @@
 package it.DevelHope.ExerciseKotlin5step1
 
-class Child1: Parent(){
+class Child1(override var Name: String): Parent(Name){
 
-    override fun Eat() {
-        println("Child 1 is eating.")
-    }
 
 }

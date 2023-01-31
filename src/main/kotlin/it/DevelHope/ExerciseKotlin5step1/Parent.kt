@@ -1,8 +1,8 @@
 package it.DevelHope.ExerciseKotlin5step1
 
-open class Parent {
+open class Parent (open var Name: String) {
 
-    open fun Eat(){
-        println("The parent is eating.")
+     fun Eat(){
+        println("I'm $Name and i'm eating.")
     }
 }

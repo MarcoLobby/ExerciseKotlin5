@@ -1,9 +1,9 @@
 package it.DevelHope.ExerciseKotlin5step1
 
 fun main (){
-    var parent = Parent()
-    var child1 = Child1()
-    var child2 = Child2()
+    val parent = Parent("Marco")
+    val child1 = Child1("Pino")
+    val child2 = Child2("Pigno")
 
     parent.Eat()
     child1.Eat()
